@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\虎太郎\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\虎太郎\.Rider2019.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\虎太郎\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\虎太郎\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_TileMapPractice.-1544835539.00" t="ExcludeRecursive" />
+    <e p="C:\Users\虎太郎\Desktop\TileMapPractice" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Script" t="Include">
+          <e p="BeamController.cs" t="Include" />
+          <e p="EnemyGenerator.cs" t="Include" />
+          <e p="ExplosionController.cs" t="Include" />
+          <e p="GameController.cs" t="Include" />
+          <e p="lesserEnemyController.cs" t="Include" />
+          <e p="ObjectPool.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+          <e p="SingletonMonoBehaviour.cs" t="Include" />
+          <e p="StrongEnemyController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="TileMapPractice.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
