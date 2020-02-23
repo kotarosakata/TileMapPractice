@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e24d926-803a-4075-99a0-b0fbe22d99b7" name="Default Changelist" comment="" />
+    <list default="true" id="3e24d926-803a-4075-99a0-b0fbe22d99b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/char_enemy2_10.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/char_enemy2_10.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/char_enemy2_11.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/char_enemy2_11.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TileMapPractice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TileMapPractice/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TileMapPractice/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TileMapPractice/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TileMapPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TileMapPractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/char_enemy2_5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/char_enemy2_5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/StrongEnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/StrongEnemyController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ExplosionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Unity Project Folder/hackz_Allo_master/TaskConnect/Assets/Scripts/Manager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/BeamController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/StrongEnemyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/lesserEnemyController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/BeamController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://C:/Unity Project Folder/hackz_Allo_master/TaskConnect/Assets/Scripts/Manager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/ExplosionController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -31,19 +46,23 @@
         <option value="$PROJECT_DIR$/Assets/Script/ExplosionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemyGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/lesserEnemyController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/StrongEnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/StrongEnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerController.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1Xk5KajXWHeEtAYEyCraEzeFqwC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -108,6 +127,7 @@
       <workItem from="1582073927007" duration="908000" />
       <workItem from="1582091819733" duration="3228000" />
       <workItem from="1582101384383" duration="623000" />
+      <workItem from="1582464674715" duration="3954000" />
     </task>
     <servers />
   </component>
@@ -116,6 +136,20 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="640" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581702523932">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -189,5 +223,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="491" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581636313977" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582468303308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582468303308" />
   </component>
 </project>

@@ -13,11 +13,14 @@ public class StrongEnemyController : MonoBehaviour
     private float speed = 1.5f;
     private int movedirection=-1;
     private int HP;
+    private GameObject ExplosionGameObject;
     private void Start()
     {
         HP = 10000;
         _objectPool = new ObjectPool();
         _objectPool.CreatePool(100,Resources.Load<GameObject>("beam2_2"));
+        ExplosionGameObject = Instantiate(Resources.Load<GameObject>("char_enemy2_5"));
+        ExplosionGameObject.SetActive(false);
     }
 
     void Update()
@@ -41,8 +44,11 @@ public class StrongEnemyController : MonoBehaviour
 
         if (HP < 1)
         {
+            GameController.Instance.PointUpdate(10000);
+            ExplosionGameObject.SetActive(true);
             GameController.Instance.StrongEnemyDeath();
             gameObject.SetActive(false);
+            
         }
     }
 
@@ -52,7 +58,6 @@ public class StrongEnemyController : MonoBehaviour
         {
             GameController.Instance.PointUpdate(5);
             HP -= 10;
-            Debug.Log(HP);
         }
     }
 }

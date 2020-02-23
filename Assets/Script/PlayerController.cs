@@ -28,13 +28,12 @@ public class PlayerController : MonoBehaviour
         float keyDownY = Input.GetAxisRaw("Vertical");
         if (Input.GetKey(KeyCode.LeftShift)) speedOffset = 3;
         else speedOffset = 7;
-        Debug.Log(speedOffset);
         Vector3 vec = new Vector3(keyDownX, keyDownY).normalized * (Time.deltaTime * speedOffset);
         Vector3 vec2 = new Vector3(Mathf.Clamp(vec.x + transform.position.x, -8, 8),
             Mathf.Clamp(vec.y + transform.position.y, -4, 4));
         transform.position = vec2;
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space)&& Time.timeScale>0)
         {
             if (waitTime <= nowtime)
             {
