@@ -25,7 +25,7 @@ public class ExplosionController : MonoBehaviour
             issound = true;
         }
         waittime += Time.deltaTime;
-        if (waittime > 0.5f)
+        if (waittime > 0.7f)
         {
             waittime = 0;
             gameObject.SetActive(false);

@@ -9,6 +9,7 @@ public class GameController : SingletonMonoBehaviour<GameController>
 {
     // Start is called before the first frame update
     public Text _pointviewer;
+    private int EnemyTypeNow = 1;
     private  static int _point=0;
     public Text Titletext;
     private static bool isFirstPlay = true;
@@ -18,6 +19,9 @@ public class GameController : SingletonMonoBehaviour<GameController>
     private bool IsOver = false;
     private void Start()
     {
+       var bossGameObjectObj= Instantiate(Resources.Load<GameObject>("char_enemy2_4"));
+       bossGameObjectObj.transform.position=new Vector3(10,2,0);
+       bossGameObjectObj.GetComponent<StrongEnemyController>().EnemyType = EnemyTypeNow;
         if (isFirstPlay)
         {
             Titletext.text = "Shooting Game 1";
@@ -36,7 +40,26 @@ public class GameController : SingletonMonoBehaviour<GameController>
     }
     public void StrongEnemyDeath()
     {
-        PointUpdate(10000);
+        PointUpdate(EnemyTypeNow*EnemyTypeNow*1000);
+        EnemyTypeNow++;
+        StrongEnemyGenerate();
+    }
+
+    private void StrongEnemyGenerate()
+    {
+        if (EnemyTypeNow%2==0)
+        {
+            var bossGameObjectObj= Instantiate(Resources.Load<GameObject>("char_enemy2_10"));
+            bossGameObjectObj.transform.position=new Vector3(10,2,0);
+            bossGameObjectObj.GetComponent<StrongEnemyController>().EnemyType = EnemyTypeNow;
+        }
+        else
+        {
+            var bossGameObjectObj= Instantiate(Resources.Load<GameObject>("char_enemy2_4"));
+            bossGameObjectObj.transform.position=new Vector3(10,2,0);
+            bossGameObjectObj.GetComponent<StrongEnemyController>().EnemyType = EnemyTypeNow;
+        }
+        
     }
     public void GameOver()
     {

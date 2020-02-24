@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e24d926-803a-4075-99a0-b0fbe22d99b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/char_enemy2_10.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/char_enemy2_10.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/char_enemy2_11.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/char_enemy2_11.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TileMapPractice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TileMapPractice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TileMapPractice/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TileMapPractice/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TileMapPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TileMapPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/char_enemy2_5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/char_enemy2_5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/char_enemy2_10.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/char_enemy2_10.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/char_enemy2_4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/char_enemy2_4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/ExplosionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/ExplosionController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/StrongEnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/StrongEnemyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/lesserEnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/lesserEnemyController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +41,12 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/BeamController.cs" />
         <option value="$PROJECT_DIR$/Assets/lesserEnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/ExplosionController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/ExplosionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemyGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/lesserEnemyController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/GameController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/StrongEnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ExplosionController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/lesserEnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/StrongEnemyController.cs" />
       </list>
     </option>
   </component>
@@ -128,6 +126,7 @@
       <workItem from="1582091819733" duration="3228000" />
       <workItem from="1582101384383" duration="623000" />
       <workItem from="1582464674715" duration="3954000" />
+      <workItem from="1582530705475" duration="4582000" />
     </task>
     <servers />
   </component>
@@ -141,7 +140,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -223,9 +224,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="491" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581636313977" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582468303308">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582533560480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582468303308" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582533560480" />
   </component>
 </project>

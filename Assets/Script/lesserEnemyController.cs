@@ -17,7 +17,7 @@ public class lesserEnemyController : MonoBehaviour
     private float speed = 3f;
     private void Start()
     {
-        _objectPool = new ObjectPool();
+        _objectPool = gameObject.AddComponent<ObjectPool>();
         _objectPool.CreatePool(100,Resources.Load<GameObject>("beam2_1"));
         _rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
          obj = Instantiate(Resources.Load<GameObject>("Explosion"));

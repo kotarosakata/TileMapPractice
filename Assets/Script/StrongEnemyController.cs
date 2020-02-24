@@ -6,6 +6,7 @@ using UnityEngine;
 public class StrongEnemyController : MonoBehaviour
 {
     // Update is called once per frame
+    public int EnemyType = 2;
     private float waitTime = 0.5f;
     private float nowTime = 0;
     private ObjectPool _objectPool;
@@ -16,8 +17,8 @@ public class StrongEnemyController : MonoBehaviour
     private GameObject ExplosionGameObject;
     private void Start()
     {
-        HP = 10000;
-        _objectPool = new ObjectPool();
+        HP = 1500*EnemyType;
+        _objectPool = gameObject.AddComponent<ObjectPool>();
         _objectPool.CreatePool(100,Resources.Load<GameObject>("beam2_2"));
         ExplosionGameObject = Instantiate(Resources.Load<GameObject>("char_enemy2_5"));
         ExplosionGameObject.SetActive(false);
@@ -25,9 +26,27 @@ public class StrongEnemyController : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.x < -3) movedirection *= -1;
-        if (transform.position.x > 3) movedirection *= -1;
-        transform.position += new Vector3(movedirection*Time.deltaTime,0,0);
+        if (EnemyType%2!=0)
+        {
+            if (transform.position.x < -3 && movedirection<0) movedirection *= -1;
+            if (transform.position.x > 3 && movedirection>0) movedirection *= -1;
+            transform.position += new Vector3(movedirection*Time.deltaTime,0,0);
+        }
+        else
+        {
+            Debug.Log("Yes");
+            if (transform.position.x > 3)
+            {
+                transform.position += new Vector3(movedirection*Time.deltaTime,0,0);
+            }
+            else
+            {
+                if (transform.position.y < -3 && movedirection<0) movedirection *= -1;
+                if (transform.position.y > 3 && movedirection>0) movedirection *= -1;
+                transform.position += new Vector3(0,movedirection*Time.deltaTime,0);
+
+            }
+        }
         nowTime += Time.deltaTime;
         if (waitTime < nowTime)
         {
@@ -41,11 +60,10 @@ public class StrongEnemyController : MonoBehaviour
             _changeRad+=5;
             nowTime = 0;
         }
-
         if (HP < 1)
         {
-            GameController.Instance.PointUpdate(10000);
             ExplosionGameObject.SetActive(true);
+            ExplosionGameObject.transform.position = gameObject.transform.position;
             GameController.Instance.StrongEnemyDeath();
             gameObject.SetActive(false);
             
@@ -58,6 +76,7 @@ public class StrongEnemyController : MonoBehaviour
         {
             GameController.Instance.PointUpdate(5);
             HP -= 10;
+//            Debug.Log(HP);
         }
     }
 }
